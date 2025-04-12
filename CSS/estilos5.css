@@ -1,0 +1,38 @@
+/* Inicio de estilos para la cuadricula de imagenes */
+.cuadriculas
+{
+    display: flex;
+    grid-template-columns: repeat(auto-fit), minmax(100px);
+    gap: 20px;
+    padding: 20px;
+}
+.item
+{
+    background-color: rgb(158, 209, 216);
+    box-shadow: 4px 4px 4px black;
+    margin: 0px 10px;
+    text-align: center;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+}
+.item img
+{
+    max-width: 90%;
+    max-height: 100%;
+    padding: 0px 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.item h3
+{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.item img:hover 
+{
+    filter: brightness(0.8);
+    transform: scale(1.03);
+}
+/* Fin de estilos para la cuadricula de imagenes */

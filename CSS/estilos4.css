@@ -1,0 +1,31 @@
+.Significado
+{
+    position:relative;
+    background-color: rgb(153, 202, 211);
+    align-items: center;
+}
+.Significado h1
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: rgb(22, 73, 80);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.Significado p
+{
+    display:flex;
+    color: rgb(35, 45, 51);
+    font-size: 18pt;
+    text-align: justify;
+    padding: 7px;
+    line-height: 1.1;
+}
+.pizza
+{
+    padding: 5px;
+    height: 300px;
+    width: 500px;
+    align-items:center;
+}

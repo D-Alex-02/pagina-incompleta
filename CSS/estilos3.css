@@ -1,0 +1,41 @@
+/*Inicio configuracon del recuadro azul oscuro "Rumbo infinito"------------------------*/
+.cuadrado
+{
+    text-align:justify;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 25, 124, 0.452);
+    margin-bottom: 3px;
+}
+.cuadrado h1
+{
+    text-align: center;
+    color: rgb(236, 224, 182);
+    font-size: 28pt;
+}
+.cuadrado p
+{
+    text-align:justify;
+    padding: 5px 25px;
+    display: flex;
+    color: rgb(231, 228, 221);
+    font-size: 20pt;
+}
+.imagenn
+{
+    padding: 5px 35px;
+    min-width: 300px;
+    min-height: 150px;
+}
+.bt1 /*Configuracion estetica del boton dentro del recuadro "Rumbo infinito"--------------*/
+{
+    padding: 1px 10px;
+    background-color: rgb(36, 49, 73);
+    text-decoration: none;
+    color: rgb(153, 230, 240);
+    font-size: 15pt;
+    text-align: center;
+    border: none;
+}
+/*Fin configuracon del recuadro azul oscuro "Rumbo infinito"----------------------------*/
+/*--------------------------------------------------------------------------------------*/

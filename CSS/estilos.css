@@ -1,0 +1,79 @@
+.imagen
+{
+    width: 100%; /* ANCHO MAXIMO DE LA CABECERA DE LA PANTALLA*/
+    height: 100%;/* ALTO maximo DE LA CABECERA DE LA PANTALLA */
+}
+.migadepan /*La miga de pan es la barra pequeña que contiene los menu*/
+{
+    width: 100%; /*Ancho de la miga de pan*/
+    height: 100%;
+    background-color: rgb(64, 101, 180);/*Color de fondo*/
+}
+.migadepan ul
+{
+    list-style: none;/*SIN VIÑETAS O SIN NUMERACIÓN*/
+    font-family: 'Times New Roman', Times, serif;/*TIPO DE FUENTE Y TAMAÑO DE FUENTE*/
+}
+.menuprimario
+{
+    list-style: none;
+    font-size: 20pt;
+    position: relative;/*pOSICION RELATIVA, PARA AJUSTES ADICIONALES QUE SE HAGAN DENTRO DE HTML*/
+}
+.menuprimario > li 
+{
+    padding: 15pt;/*SEPARACION O DISTANCIA ENTRE BOTONES*/
+    display: inline-block;/*BLOQUE HORIZONTAL PARA EL MENU DE OPCIONES EN PANTALLA*/
+    position: relative;
+}
+.menuprimario > li > a
+{
+    text-decoration: none;/*EVITA EL SUBRAYADO DE LAS PALABRAS EN PANTALLA*/
+    color: rgb(240, 214, 160);
+}
+.menuprimario > li a:hover /*HOVER ES CUANDO EL MOUSE ESTA ENCIMA*/
+{
+    padding: 5pt;
+    background-color: rgb(128, 126, 124);
+    color: rgb(0, 0, 0);
+}
+.miga2
+{
+    width: 100%;
+    margin: 0pt;
+    background-color: rgb(125, 163, 179);
+}
+.miga2 ul
+{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menusecundario
+{
+    list-style: none;
+    font-size: 28pt;
+    position: relative;
+}
+.menusecundario > li
+{
+    padding: 12pt;
+    display: inline-block;
+    position: relative;
+    font-size: 20pt;
+}
+.menusecundario > li > a
+{
+    text-decoration: none;
+    color: rgb(17, 16, 13);
+}
+.menusecundario > li a:hover 
+{
+    padding: 18pt;
+    background-color: rgb(235, 227, 198);
+    color: rgb(0, 0, 0);
+}
+.imagen2
+{
+    min-width: 25%; 
+    min-height: 25%;
+}
